@@ -10,7 +10,7 @@
     @foreach($emp_details as $key=>$detail)
         <tr>
         <td>{{$key+1}}</td>
-        <td><img src="./uploads/emp_img/{{$detail->emp_img}}" style="height:100px;width=100px;"></td>
+        <td><img src="{{url('/uploads/emp_img/'.$detail->emp_img)}}" style="height:100px;width=100px;"></td>
         <td>{{ $detail['emp_name'] }}<td>    
         <td>{{ $detail['emp_email'] }}<td>
         <td>{{ $detail['emp_city'] }}<td>

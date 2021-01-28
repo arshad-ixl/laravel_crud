@@ -20,7 +20,7 @@
 
         </select><br>
         Emp Number<input type="number" name="up_phone" value="{{$em->emp_phone}}"><br>
-        Old image:<img src="./uploads/emp_img/{{$em->emp_img}}"> <br>
+        Old image:<img src="{{url('/uploads/emp_img/'.$em->emp_img)}}" style="height:100px;width=100px;"> <br>
         New Image<input type="file" name="up_img"><br>
         <input type="submit" name="create" value="Update">
     </form>
