@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title','All Emp Data')
-
+<p>index page</p>
 @section('content')
 <a href="/crud/public/emp/create">Create new</a>
 <br><br>
