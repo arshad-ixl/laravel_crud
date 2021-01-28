@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class CrudController extends Controller
 {
-    /** h
+    /** 
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
